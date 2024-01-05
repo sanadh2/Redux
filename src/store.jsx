@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import { accountReducer } from "./Components/Features/Account/AccountSlice";
+import accountReducer from "./Components/Features/Account/AccountSlice";
 
 import { custoReducer } from "./Components/Features/Customers/customerSlice";
 
